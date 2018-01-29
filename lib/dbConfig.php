@@ -4,7 +4,7 @@ session_start();
 
 $servername = "localhost";
 $username   = "root";
-$password   = "";
+$password   = "toor";
 $dbname     = "busara";
 
 // Create connection
@@ -23,7 +23,7 @@ $hDate = (new DateTime (date('Y-m-d H:i:s'))) -> format('M, dS Y');
 $phpversion = phpversion();
 
 define('APPNAME', 'Busara - JobBoard');
-define('SITEURL', 'http://localhost/busara');
+define('SITEURL', 'http://localhost/busara-job-board');
 define('AUTHOUR', 'WAGURAMAURICE');
 define('AUTHOUR_URL', 'www.waguramaurice.cf');
 define('SITEBOOKINGS', 'wagura465@gmail.com');
